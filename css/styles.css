@@ -1,0 +1,168 @@
+/* So Sharp*/
+
+body, header, nav, main, footer, h1, div, img, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+
+
+/* style for mobile viewport*/
+
+
+/*hide tab-desk class*/
+.tab-desk{
+	display: none;
+}
+
+
+
+.logo {
+		background-color: #91908c;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+	border-radius: 50%;
+	margin-left: 0.5em;
+	margin-right: 50em;
+	box-shadow: 2em;
+}
+
+.top	{
+	display: left;
+	padding-left: 2%;
+	
+}
+
+container{
+	width: 80%;
+	position: center;
+}
+	
+main {
+	display: block;
+	text-align: left;
+	color: fff;
+	background: #F5F5F5;
+	margin-left: 1em;
+	padding-left: 1em;
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+	padding-right: 1em;
+	margin-right: 2em;
+	border-radius: 1em;
+	font-size: 1.25em;
+	font-family: 'Francois One ', sans-serif;
+	
+	
+}
+
+main h1 {
+	color: #FF0000;
+}
+
+body {
+	background-color: #fff;
+}
+	
+img{
+	max-width: 100%;
+display: block;}
+
+
+/* style rules for nav area */
+nav {
+	background-color: #555;
+	padding-bottom: 0em;
+}
+
+nav ul {
+	display: block;
+	list-style-type: none;
+	text-align: center;
+	border-top: 1px solid #e5e9fc;
+	border-bottom: 1px solid #e5e9fc;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	margin-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+footer p{
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+#intro {
+	text-align: center;
+}
+
+.headshot{
+	width: 310px;
+	height: 400px;
+}
+
+/* media query for tablet viewport*/ 
+
+@media screen and (min-width:550px), print{
+	
+
+	.tab-desk{
+		display: block;
+	}
+	
+	.mobile{
+		display: none;
+	}
+	
+
+	span.tab-desk{
+		display: inline;
+	}
+
+
+}
+	
+}
+	
+	
+
+/* Media Query for Desktop Viewport */
+
+@media screen and (min-width: 769px) {
+	
+
+}
+
+
+/*Media Query for Print*/
+@media print{
+	body{}
+}
+
+	
+	
+/* hover desk*/
+@media screen and (min-width: 769px) {
+	
+nav li a:hover {
+	 color: #000;
+background-color: #fff; }
+}
+
